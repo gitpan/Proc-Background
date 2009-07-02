@@ -1,4 +1,4 @@
-Package Proc::Background Version 1.08
+Package Proc::Background Version 1.09
 
 This is the Proc::Background package.  It provides a generic interface
 to running background processes.  Through this interface, users can
@@ -21,15 +21,15 @@ process did not exit, then the process is killed.
 
 AVAILABILITY
 
-The latest released version of this package is available from a CPAN
-archive near you in
+The latest released version of this package is available for download
+from a CPAN (Comprehensive Perl Archive Network) archive near you in
 
     http://www.perl.com/CPAN/authors/id/B/BZ/BZAJAC/
 
 The latest beta version of this package is hosted in a Subversion
 repository located at
 
-    http://svn.orcaware.com:8000/repos/trunk/proc_background/
+    http://www.orcaware.com/svn/repos/trunk/perl_proc_background/
 
 Subversion is an open-source source code management system designed to
 replace CVS.  To get Subversion, see
@@ -96,6 +96,6 @@ utility to extract documentation from the module files directly.
 
 COPYRIGHT
 
-Copyright (C) 1998-2002 Blair Zajac.  All rights reserved.  This
+Copyright (C) 1998-2005 Blair Zajac.  All rights reserved.  This
 package is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

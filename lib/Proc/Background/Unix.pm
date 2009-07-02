@@ -1,6 +1,6 @@
 # Proc::Background::Unix: Unix interface to background process management.
 #
-# Copyright (C) 1998-2002 Blair Zajac.  All rights reserved.
+# Copyright (C) 1998-2005 Blair Zajac.  All rights reserved.
 
 package Proc::Background::Unix;
 
@@ -13,7 +13,7 @@ use POSIX qw(:errno_h :sys_wait_h);
 
 use vars qw(@ISA $VERSION);
 @ISA     = qw(Exporter);
-$VERSION = sprintf '%d.%02d', '$Revision: 1.08 $' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf '%d.%02d', '$Revision: 1.09 $' =~ /(\d+)\.(\d+)/;
 
 # Start the background process.  If it is started sucessfully, then record
 # the process id in $self->{_os_obj}.
@@ -131,7 +131,7 @@ Blair Zajac <blair@orcaware.com>
 
 =head1 COPYRIGHT
 
-Copyright (C) 1998-2002 Blair Zajac.  All rights reserved.  This
+Copyright (C) 1998-2005 Blair Zajac.  All rights reserved.  This
 package is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
